@@ -1,0 +1,3 @@
+/Users/Samuel/code/Computer Graphics/P1RasterBase2016/build/CMakeFiles/rebuild_cache.dir
+/Users/Samuel/code/Computer Graphics/P1RasterBase2016/build/CMakeFiles/edit_cache.dir
+/Users/Samuel/code/Computer Graphics/P1RasterBase2016/build/CMakeFiles/raster.dir
