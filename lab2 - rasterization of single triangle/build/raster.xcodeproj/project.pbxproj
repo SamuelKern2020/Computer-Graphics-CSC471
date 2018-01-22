@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		99B7FF9DC8B84230A0C0E550 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D695491DCB3A4AE4B943C3C2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D1D41AEFF0C0410D88797E0E /* CMake Rules */,
+			);
+			dependencies = (
+				CFC023A7E5374F96A658278F /* PBXTargetDependency */,
+				5839E4DA8A0048749EF0EC43 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F5C3F7545DFB44DCBBCAD6E0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 06C55D85114544B19C9C0F40 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F5DE12C462FE47AE87077CE0 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0078749D780448E2857E4170 /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/stb_image_write.h */ = {isa = PBXBuildFile; fileRef = D501D60EC5EB44E8A1E9517A /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/stb_image_write.h */; };
+		30DA7CC7C6D442DE87628E47 /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/Image.h */ = {isa = PBXBuildFile; fileRef = 821B5488209740AE8C0208DB /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/Image.h */; };
+		45B7088F9CED432495A4830A /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/Image.cpp */ = {isa = PBXBuildFile; fileRef = C493A1774EC64690ABEBC463 /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/Image.cpp */; };
+		58F2473EB3674EEE9A58A4FD /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/tiny_obj_loader.h */ = {isa = PBXBuildFile; fileRef = CE84546FFCBD4F1DAA4E3B4F /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/tiny_obj_loader.h */; };
+		73093348912748D99E039DC0 /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/main.cpp */ = {isa = PBXBuildFile; fileRef = AFCE9BB3155F488680027066 /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/main.cpp */; };
+		7A0B72F2EAB74F0698630B89 /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 41F2B96A49E44322823CB5D5 /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		55929085A47D4131AB6BD2AA /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		A9160D827FBB463F885CD226 = {
+			isa = PBXBuildStyle;
+		};
+		A991B2061C044DD3B3206829 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D2F4C1B319374F9AA800D966 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		FF0C05AF7361477C861E737A /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		AE35701B34A24769BD63F9AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6746401EBE664EF49F8A8926 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C3F7545DFB44DCBBCAD6E0;
+			remoteInfo = ZERO_CHECK;
+		};
+		CCCA9DB5B4C24AB1B6B59DC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6746401EBE664EF49F8A8926 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C3F7545DFB44DCBBCAD6E0;
+			remoteInfo = ZERO_CHECK;
+		};
+		E971DFABA9CF44478F0E1886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6746401EBE664EF49F8A8926 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF6F42834BC42D59199295D;
+			remoteInfo = raster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41F2B96A49E44322823CB5D5 /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		64972748F26146FC803BB9C7 /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6831FD8105C64F9AB2B03EBC /* raster */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = raster; sourceTree = BUILT_PRODUCTS_DIR; };
+		821B5488209740AE8C0208DB /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/Image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Image.h; path = src/Image.h; sourceTree = SOURCE_ROOT; };
+		AFCE9BB3155F488680027066 /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		C493A1774EC64690ABEBC463 /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/Image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Image.cpp; path = src/Image.cpp; sourceTree = SOURCE_ROOT; };
+		CE84546FFCBD4F1DAA4E3B4F /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/tiny_obj_loader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tiny_obj_loader.h; path = src/tiny_obj_loader.h; sourceTree = SOURCE_ROOT; };
+		D4047C1F686A4601B3CC4BF0 /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D501D60EC5EB44E8A1E9517A /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/stb_image_write.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image_write.h; path = src/stb_image_write.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3AC10EF4A4644EF5BE9DA365 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A278A0F37CB4445187D828EB /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				AA0D364C93CE4A8D9B961726 /* CMake Rules */,
+				64972748F26146FC803BB9C7 /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		AA0D364C93CE4A8D9B961726 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		ABFE803C9DCC4901BD44613B /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				3AC10EF4A4644EF5BE9DA365 /* CMake Rules */,
+				D4047C1F686A4601B3CC4BF0 /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		B3B2A4C38B294FC89371632E /* raster */ = {
+			isa = PBXGroup;
+			children = (
+				E5D81EAC8D9A46C5B2C232FA /* Source Files */,
+				B5F47C90700844D597E73365 /* Header Files */,
+				41F2B96A49E44322823CB5D5 /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/CMakeLists.txt */,
+			);
+			name = raster;
+			sourceTree = "<group>";
+		};
+		B5F47C90700844D597E73365 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				821B5488209740AE8C0208DB /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/Image.h */,
+				D501D60EC5EB44E8A1E9517A /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/stb_image_write.h */,
+				CE84546FFCBD4F1DAA4E3B4F /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/tiny_obj_loader.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		C4B06FC5798345558FE2EBC7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B3B2A4C38B294FC89371632E /* raster */,
+				A278A0F37CB4445187D828EB /* ALL_BUILD */,
+				ABFE803C9DCC4901BD44613B /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		E5D81EAC8D9A46C5B2C232FA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C493A1774EC64690ABEBC463 /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/Image.cpp */,
+				AFCE9BB3155F488680027066 /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F304B098F5BF4C6C824CBE72 = {
+			isa = PBXGroup;
+			children = (
+				C4B06FC5798345558FE2EBC7 /* Sources */,
+				FF32610D0BBD4161B443905F /* Resources */,
+				F7E23701CDD84588AFDC5A3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7E23701CDD84588AFDC5A3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6831FD8105C64F9AB2B03EBC /* raster */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF32610D0BBD4161B443905F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBF6F42834BC42D59199295D /* raster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2F6FF35E5147A3AB9D9F35 /* Build configuration list for PBXNativeTarget "raster" */;
+			buildPhases = (
+				15C3EB36B87D498689C64478 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				929E908307EB4839B06BD6CA /* PBXTargetDependency */,
+			);
+			name = raster;
+			productName = raster;
+			productReference = 6831FD8105C64F9AB2B03EBC /* raster */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6746401EBE664EF49F8A8926 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 3D13BBB384C04C179657AC70 /* Build configuration list for PBXProject "raster" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A991B2061C044DD3B3206829 /* Debug */,
+				55929085A47D4131AB6BD2AA /* Release */,
+				FF0C05AF7361477C861E737A /* MinSizeRel */,
+				D2F4C1B319374F9AA800D966 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F304B098F5BF4C6C824CBE72;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				99B7FF9DC8B84230A0C0E550 /* ALL_BUILD */,
+				F5C3F7545DFB44DCBBCAD6E0 /* ZERO_CHECK */,
+				CBF6F42834BC42D59199295D /* raster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85015DEA3BCC47548AA17AAA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D1D41AEFF0C0410D88797E0E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Samuel/code/school/Computer\\ Graphics/Assignments/lab2\\ -\\ rasterization\\ of\\ single\\ triangle/build -f /Users/Samuel/code/school/Computer\\ Graphics/Assignments/lab2\\ -\\ rasterization\\ of\\ single\\ triangle/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		DC4325F25BA347D58BE6E91E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F5DE12C462FE47AE87077CE0 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Samuel/code/school/Computer\\ Graphics/Assignments/lab2\\ -\\ rasterization\\ of\\ single\\ triangle/build -f /Users/Samuel/code/school/Computer\\ Graphics/Assignments/lab2\\ -\\ rasterization\\ of\\ single\\ triangle/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15C3EB36B87D498689C64478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B7088F9CED432495A4830A /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/Image.cpp */,
+				73093348912748D99E039DC0 /* /Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5839E4DA8A0048749EF0EC43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBF6F42834BC42D59199295D /* raster */;
+			targetProxy = E971DFABA9CF44478F0E1886 /* PBXContainerItemProxy */;
+		};
+		929E908307EB4839B06BD6CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C3F7545DFB44DCBBCAD6E0 /* ZERO_CHECK */;
+			targetProxy = AE35701B34A24769BD63F9AC /* PBXContainerItemProxy */;
+		};
+		CFC023A7E5374F96A658278F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C3F7545DFB44DCBBCAD6E0 /* ZERO_CHECK */;
+			targetProxy = CCCA9DB5B4C24AB1B6B59DC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11FB4D8A4E2A4416BD113CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/build/build";
+			};
+			name = Debug;
+		};
+		4678F220AFCE4EE6965EEED0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4AE405EAE0974C6F9F50DD81 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/build/build";
+			};
+			name = MinSizeRel;
+		};
+		6A83463793AD430FBD9ED3F8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6CC1BB9BC65A4F4899740A85 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7189163E55FE465492B023A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7CD11A8F763147DF85B93805 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++0x -Wall -pedantic     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raster;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		91B7DF2C950249F3BE76F732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/build/build";
+			};
+			name = Release;
+		};
+		A5D1B1DB0383408B8046D2BC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A6A3343A022E4B27A38AAB4B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++0x -Wall -pedantic        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raster;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C13810692DDF40C8966B1940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C614749CA29C44AEA0BA0067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		CDE35DB3DDDB4DF983AE72F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++0x -Wall -pedantic     ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raster;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D42787E51D30441195F27096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++0x -Wall -pedantic     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raster;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DD2C385038FF4A76A9961D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F74AD5135E5A44169BC85502 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06C55D85114544B19C9C0F40 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C614749CA29C44AEA0BA0067 /* Debug */,
+				DD2C385038FF4A76A9961D04 /* Release */,
+				4678F220AFCE4EE6965EEED0 /* MinSizeRel */,
+				A5D1B1DB0383408B8046D2BC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3D13BBB384C04C179657AC70 /* Build configuration list for PBXProject "raster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FB4D8A4E2A4416BD113CD9 /* Debug */,
+				91B7DF2C950249F3BE76F732 /* Release */,
+				4AE405EAE0974C6F9F50DD81 /* MinSizeRel */,
+				F74AD5135E5A44169BC85502 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BA2F6FF35E5147A3AB9D9F35 /* Build configuration list for PBXNativeTarget "raster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE35DB3DDDB4DF983AE72F6 /* Debug */,
+				D42787E51D30441195F27096 /* Release */,
+				7CD11A8F763147DF85B93805 /* MinSizeRel */,
+				A6A3343A022E4B27A38AAB4B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D695491DCB3A4AE4B943C3C2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C13810692DDF40C8966B1940 /* Debug */,
+				7189163E55FE465492B023A9 /* Release */,
+				6A83463793AD430FBD9ED3F8 /* MinSizeRel */,
+				6CC1BB9BC65A4F4899740A85 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6746401EBE664EF49F8A8926 /* Project object */;
+}

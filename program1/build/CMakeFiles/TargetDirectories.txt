@@ -1,0 +1,3 @@
+/Users/Samuel/code/school/Computer Graphics/Assignments/program1/build/CMakeFiles/raster.dir
+/Users/Samuel/code/school/Computer Graphics/Assignments/program1/build/CMakeFiles/ALL_BUILD.dir
+/Users/Samuel/code/school/Computer Graphics/Assignments/program1/build/CMakeFiles/ZERO_CHECK.dir

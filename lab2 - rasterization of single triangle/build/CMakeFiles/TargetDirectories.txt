@@ -1,0 +1,3 @@
+/Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/build/CMakeFiles/raster.dir
+/Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/build/CMakeFiles/ALL_BUILD.dir
+/Users/Samuel/code/school/Computer Graphics/Assignments/lab2 - rasterization of single triangle/build/CMakeFiles/ZERO_CHECK.dir
